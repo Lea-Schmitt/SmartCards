@@ -44,7 +44,11 @@ HEADERS += \
     moderateur.h
 
 FORMS += \
-        smartcards.ui
+        smartcards.ui \
+    new_paquet.ui \
+    paquet.ui \
+    modifier_paquet.ui \
+    new_card.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

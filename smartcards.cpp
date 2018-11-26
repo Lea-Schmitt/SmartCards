@@ -6,6 +6,7 @@ SmartCards::SmartCards(QWidget *parent) :
     ui(new Ui::SmartCards)
 {
     ui->setupUi(this);
+
 }
 
 SmartCards::~SmartCards()
