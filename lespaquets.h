@@ -1,6 +1,9 @@
 #ifndef LESPAQUETS_H
 #define LESPAQUETS_H
 
+#include<iostream>
+#include<string>
+using namespace std;
 
 class LesPaquets
 {

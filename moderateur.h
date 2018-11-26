@@ -2,7 +2,7 @@
 #define MODERATEUR_H
 
 #include<iostream>
-#include<String>
+#include<string>
 using namespace std;
 
 class Moderateur

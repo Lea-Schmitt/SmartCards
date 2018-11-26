@@ -3,21 +3,20 @@
 LesPaquets::LesPaquets()
 {
 
-
-    LesPaquet::LesPaquet(){
+    LesPaquets::LesPaquets(){
 
         return null;
     }
 
-    void LesPaquet::creerPaquet(){
+    void LesPaquets::creerPaquets(){
 
     }
 
-    void LesPaquet::AjouterPaquet(Paquet p){
+    void LesPaquets::AjouterPaquets(Paquet p){
 
     }
 
-    void LesPaquet::reviserPaquet(String Nom){
+    void LesPaquets::reviserPaquets(String Nom){
 
     }
 

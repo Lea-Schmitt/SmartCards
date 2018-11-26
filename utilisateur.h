@@ -2,7 +2,7 @@
 #define UTILISATEUR_H
 
 #include<iostream>
-#include<String>
+#include<string>
 using namespace std;
 
 class Utilisateur
