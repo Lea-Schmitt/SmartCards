@@ -26,10 +26,22 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        smartcards.cpp
+        smartcards.cpp \
+    lespaquets.cpp \
+    paquet.cpp \
+    carte.cpp \
+    iutilisateur.cpp \
+    utilisateur.cpp \
+    moderateur.cpp
 
 HEADERS += \
-        smartcards.h
+        smartcards.h \
+    lespaquets.h \
+    paquet.h \
+    carte.h \
+    iutilisateur.h \
+    utilisateur.h \
+    moderateur.h
 
 FORMS += \
         smartcards.ui
