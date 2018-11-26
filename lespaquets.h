@@ -6,6 +6,10 @@ class LesPaquets
 {
 public:
     LesPaquets();
+    void creerPaquet();
+    void ajouterPaquet();
+    void reviserPaquet();
+
 };
 
 #endif // LESPAQUETS_H
