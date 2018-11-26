@@ -2,7 +2,9 @@
 #define SMARTCARDS_H
 
 #include <QMainWindow>
-
+#include<iostream>
+#include<string>
+using namespace std;
 namespace Ui {
 class SmartCards;
 }
