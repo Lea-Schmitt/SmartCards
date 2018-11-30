@@ -8,7 +8,7 @@ using namespace std;
 class Moderateur
 {
 private:
-    String pseudo;
+    string pseudo;
 public:
     Moderateur();
 };

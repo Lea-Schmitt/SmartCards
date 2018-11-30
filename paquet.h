@@ -3,25 +3,27 @@
 
 #include<iostream>
 #include<string>
+#include "carte.h"
+
 using namespace std;
 
 class Paquet
 {
 private:
-    String nom;
-    String theme;
+    string nom;
+    string theme;
     int nbUtilisation;
     int tmpUtilisation;
     int tpsRecord;
     int ScoreM;
-    void jouerCarte();
-    void trierCarte();
 public:
     Paquet();
     void creerCarte();
-    void ajouterCarte();
+    void ajouterCarte(Carte c);
     void reviser();
-    void initialierPaquet();
+    void initialiserPaquet();
+    void jouerCartes();
+    void trierCartes();
 };
 
 #endif // PAQUET_H

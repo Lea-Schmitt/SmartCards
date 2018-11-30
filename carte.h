@@ -9,18 +9,14 @@ class Carte
 {
 private:
     int score;
-    String question;
-    String reponse;
+    string question;
+    string reponse;
 public:
-    Carte();
+    Carte(void);
     void jouerCarte();
     void initialiserScore();
     void augmenterScore();
     void diminuerScore();
-
-
-    //commentaire
-
 };
 
 #endif // CARTE_H

@@ -1,24 +1,17 @@
 #include "lespaquets.h"
 
-LesPaquets::LesPaquets()
-{
-
-    LesPaquets::LesPaquets(){
-
-        return null;
-    }
-
-    void LesPaquets::creerPaquets(){
+LesPaquets::LesPaquets(){
 
     }
 
-    void LesPaquets::AjouterPaquets(Paquet p){
+void LesPaquets::creerPaquet(){
 
     }
 
-    void LesPaquets::reviserPaquets(String Nom){
+void LesPaquets::ajouterPaquet(Paquet p){
 
     }
 
+void LesPaquets::reviserPaquet(string nom){
 
-}
+    }

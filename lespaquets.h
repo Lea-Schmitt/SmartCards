@@ -3,6 +3,7 @@
 
 #include<iostream>
 #include<string>
+#include "paquet.h"
 using namespace std;
 
 class LesPaquets
@@ -10,8 +11,8 @@ class LesPaquets
 public:
     LesPaquets();
     void creerPaquet();
-    void ajouterPaquet();
-    void reviserPaquet();
+    void ajouterPaquet(Paquet p);
+    void reviserPaquet(string nom);
 
 };
 
